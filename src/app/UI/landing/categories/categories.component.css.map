@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "categories.component.sass"
+    ],
+    "names": [],
+    "file": "categories.component.css"
+}
