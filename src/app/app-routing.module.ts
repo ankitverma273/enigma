@@ -4,11 +4,6 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./UI/landing/landing.module').then((module) => module.LandingModule),
-  },
-  {
-    path: '',
-    loadChildren: () =>
       import('./UI/home/home.module').then((module) => module.HomeModule),
   },
 ];
