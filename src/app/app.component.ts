@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConnectMetaMaskService } from './MetaMask/connect-meta-mask.service';
-
-@Component({
+  @Component({
   selector: 'app-root',
   template: `
     <!-- app header -->
@@ -18,7 +16,7 @@ import { ConnectMetaMaskService } from './MetaMask/connect-meta-mask.service';
 export class AppComponent implements OnInit {
   title = 'Enigma';
   
-  constructor(private metaMaskService:ConnectMetaMaskService){
+  constructor(){
 
   }
 
