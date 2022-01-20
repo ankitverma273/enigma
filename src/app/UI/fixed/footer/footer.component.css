@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: white;
+  margin-top: 64px;
+}
+
+footer {
+  background-color: black;
+  padding: 70px 0;
+}
+
+footer .container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+footer .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .container .row .footer-col {
+  width: 25%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-family: "Poppins", sans-serif;
+  margin-top: 8px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=footer.component.css.map */
