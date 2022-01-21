@@ -1,0 +1,39 @@
+@import 'src/variables.sass'
+
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+
+nav
+    display: flex
+    justify-content: space-around
+    align-items: center
+    min-height: 8vh
+    background-color: white
+    .logo
+        font-family: $notoSerif
+        font-weight: 700
+        color: black
+        letter-spacing: 3px
+        text-transform: uppercase
+        font-size: 24px
+    .nav-links
+        display: flex
+        justify-content: space-around
+        width: 40%
+        a
+            color: black
+            font-family: $poppins
+            text-decoration: none
+            letter-spacing: 2px
+            font-weight: 500
+        li
+            list-style: none
+    .search-box
+        input
+            width: 480px
+            padding: 6px 8px
+            border: none
+            background: #E3E3E3
+            border-radius: 8px
