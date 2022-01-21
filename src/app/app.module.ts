@@ -7,8 +7,14 @@ import { HeaderComponent } from './UI/fixed/header/header.component';
 import { FooterComponent } from './UI/fixed/footer/footer.component';
 import { StoreModule } from '@ngrx/store';
 import { rootReducer } from './ngRx/reducers';
+import { ProductCardComponent } from './UI/product-card/product-card.component';
+import { ProductitemComponent } from './UI/product-card/productitem/productitem.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, StoreModule.forRoot(rootReducer)],
   providers: [],
   bootstrap: [AppComponent],
