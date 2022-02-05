@@ -9,11 +9,13 @@ import { StoreModule } from '@ngrx/store';
 import { rootReducer } from './ngRx/reducers';
 import { ProductCardComponent } from './UI/product-card/product-card.component';
 import { ProductitemComponent } from './UI/product-card/productitem/productitem.component';
+import { SignInModalComponent } from './UI/SignIn_Up/sign-in-modal/sign-in-modal.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    SignInModalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, StoreModule.forRoot(rootReducer)],
   providers: [],
